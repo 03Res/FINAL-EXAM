@@ -1,0 +1,210 @@
+::-webkit-scrollbar{/*hilangkan tampilan scrool bar di page*/
+    display: none;/*hilangkan tampilkan scrool bar*/
+}
+
+.konfirm{
+    text-align: center;/*posisi tombol dibawah ada ditengah*/
+    padding: 30px;/*spasi didalam tobol jadi besar*/
+}
+.reset{/*tombol reset form*/
+    color: white;/*warna teks didalam tombol*/
+    background-color: rgba(0, 0, 255, 0.582);/*warna latar tombol*/
+    padding: 20px;/*spasi didalam tombol*/
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: large;/*ukuran font*/
+    border-radius: 8px;/*lengkungan border font*/
+    box-shadow: rgb(124, 124, 124) 0px 15px 15px 0px;/*bayangan disekitar tombol*/
+}
+.reset:hover{
+    background-color: rgb(64, 166, 255);
+
+}
+.reset:focus{
+    background-color: rgb(31, 31, 247);
+}
+.register{
+    color: white;
+    background-color: rgba(0, 91, 133, 0.582);
+    padding: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: large;
+    border-radius: 8px;
+    box-shadow: rgb(124, 124, 124) 0px 15px 15px 0px;
+}
+.register:hover{
+    background-color: rgba(255, 177, 88, 0.836);
+}
+.register:focus{
+    background-color: rgb(255, 130, 57);
+}
+img{
+    height: 90px;
+    margin: 10px;
+}
+.addressdate{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+.last{
+    text-align: center;
+    padding: 50px;
+    box-sizing: 30px;
+}
+.satu{
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 30px grey;
+    border-radius: 25px;
+}
+.dua{
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 30px grey;
+    border-radius: 25px;
+}
+.tiga{
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 30px grey;
+    border-radius: 25px;
+}
+.empat{
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 30px grey;
+    border-radius: 25px;
+}
+
+
+.namaheader{
+    margin-left: 29.5%;
+    
+    text-align: right;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.regno{
+    width: 25em;
+    margin-left: 23em;
+    margin-top: 1em;
+    border-radius: 25px;
+    text-align: center;
+    box-shadow: 0px 0px 30px grey;
+    padding: 20px;
+    
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.all{
+    display: flex;
+}
+
+header{
+    width: 100%;
+    height: 111px;
+    background: #ffffff;
+
+    display: flex;
+    text-align: left;
+    border-bottom: 3px double;
+}
+
+main{
+    width: 80em;
+    max-height: 894px;
+    background: rgb(255, 255, 255);
+    
+    align-items: center;
+    padding-left: 1%;
+
+    overflow: scroll;
+    font-size: 25px;
+
+}
+
+
+aside{
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    height: 100%;
+}
+.link{
+    width: 20em;
+    height: 894px;
+    background-color: #223b8b;
+}
+aside a{
+    display: block; /*tampilan/ bentuk link*/
+    color: rgb(255, 255, 255);/*warna teks*/
+    width: 150px;
+    padding: 27px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+
+}
+
+footer{
+    color: aliceblue;
+    background: rgb(0, 0, 0);
+
+    height: 26px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.link{
+    justify-items: center;
+}
+legend{border-radius: 20px;
+    color: #f1f1f1;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #223b8b;
+}
+a:hover{
+    background-color: rgb(255, 214, 102); /* warna background jika mouse didekati*/
+    color: rgb(161, 1, 1); /* warna teks jika mouse seperti diatas*/
+    box-shadow: 0px 0px 30px  rgb(255, 214, 102); /* bayangan disekitar konten jika mouse--*/
+    transition: 300ms; /**/
+    text-decoration:underline; /**/
+}
+
+input:hover{
+    border: blue solid 1px;
+}
+/* style about us */
+.hyperlinkweb{
+    width: 150px;
+    background-color: aqua;
+}
+
+.foot{
+    text-align: center;
+}
+
+.side {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+  }
+
+.side a {
+    display: block; /*tampilan/ bentuk link*/
+    color: black;/*warna teks*/
+    padding: 16px;
+    text-decoration: none;
+  }
+
+h3{
+    text-align: center;
+}
